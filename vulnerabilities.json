@@ -1,0 +1,124 @@
+{
+  "vulnerabilities": [
+    {
+      "cve_id": "CVE-2022-29281",
+      "package": "adm-zip",
+      "version": "0.5.5",
+      "severity": "CRITICAL",
+      "description": "adm-zip is vulnerable to Directory Traversal via malicious ZIP file extraction",
+      "fixed_version": "0.5.6"
+    },
+    {
+      "cve_id": "CVE-2022-25912",
+      "package": "simple-git",
+      "version": "3.5.0",
+      "severity": "CRITICAL",
+      "description": "simple-git is vulnerable to Remote Code Execution via argument injection",
+      "fixed_version": "3.15.0"
+    },
+    {
+      "cve_id": "CVE-2020-12265",
+      "package": "decompress",
+      "version": "4.2.0",
+      "severity": "CRITICAL",
+      "description": "decompress is vulnerable to arbitrary file write via path traversal",
+      "fixed_version": "4.2.1"
+    },
+    {
+      "cve_id": "CVE-2017-5941",
+      "package": "node-serialize",
+      "version": "0.0.4",
+      "severity": "CRITICAL",
+      "description": "node-serialize allows remote code execution via untrusted data deserialization",
+      "fixed_version": "N/A"
+    },
+    {
+      "cve_id": "CVE-2023-37466",
+      "package": "vm2",
+      "version": "3.9.10",
+      "severity": "CRITICAL",
+      "description": "vm2 sandbox escape vulnerability allowing arbitrary code execution",
+      "fixed_version": "3.9.19"
+    },
+    {
+      "cve_id": "CVE-2021-29418",
+      "package": "netmask",
+      "version": "1.0.6",
+      "severity": "HIGH",
+      "description": "netmask has improper input validation leading to Server-Side Request Forgery",
+      "fixed_version": "2.0.1"
+    },
+    {
+      "cve_id": "CVE-2021-23406",
+      "package": "pac-resolver",
+      "version": "5.0.0",
+      "severity": "CRITICAL",
+      "description": "pac-resolver is vulnerable to Remote Code Execution via malicious PAC file",
+      "fixed_version": "5.0.1"
+    },
+    {
+      "cve_id": "CVE-2022-21663",
+      "package": "systeminformation",
+      "version": "5.11.0",
+      "severity": "HIGH",
+      "description": "systeminformation is vulnerable to Command Injection via inetLatency function",
+      "fixed_version": "5.11.1"
+    },
+    {
+      "cve_id": "CVE-2022-25858",
+      "package": "mathjs",
+      "version": "10.4.0",
+      "severity": "CRITICAL",
+      "description": "mathjs is vulnerable to Arbitrary Code Execution via malicious expression",
+      "fixed_version": "10.4.2"
+    },
+    {
+      "cve_id": "CVE-2020-7789",
+      "package": "nunjucks",
+      "version": "3.2.2",
+      "severity": "HIGH",
+      "description": "nunjucks template engine is vulnerable to Prototype Pollution",
+      "fixed_version": "3.2.3"
+    },
+    {
+      "cve_id": "CVE-2021-21353",
+      "package": "pug",
+      "version": "3.0.1",
+      "severity": "HIGH",
+      "description": "pug template engine allows Remote Code Execution via template injection",
+      "fixed_version": "3.0.2"
+    },
+    {
+      "cve_id": "CVE-2022-24434",
+      "package": "dicer",
+      "version": "0.3.0",
+      "severity": "HIGH",
+      "description": "dicer is vulnerable to Denial of Service via malicious multipart request",
+      "fixed_version": "0.3.1"
+    },
+    {
+      "cve_id": "CVE-2021-32820",
+      "package": "dustjs-linkedin",
+      "version": "2.7.4",
+      "severity": "CRITICAL",
+      "description": "dustjs-linkedin allows Remote Code Execution via template compilation",
+      "fixed_version": "2.7.5"
+    },
+    {
+      "cve_id": "CVE-2021-23436",
+      "package": "mout",
+      "version": "1.2.2",
+      "severity": "HIGH",
+      "description": "mout is vulnerable to Prototype Pollution via set function",
+      "fixed_version": "1.2.3"
+    },
+    {
+      "cve_id": "CVE-2020-7789",
+      "package": "node-notifier",
+      "version": "9.0.0",
+      "severity": "MEDIUM",
+      "description": "node-notifier is vulnerable to OS Command Injection via notification parameters",
+      "fixed_version": "9.0.1"
+    }
+  ]
+}
