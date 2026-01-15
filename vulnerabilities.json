@@ -9,6 +9,14 @@
       "fixed_version": "N/A"
     },
     {
+      "cve_id": "CVE-2021-23873",
+      "package": "just-pick",
+      "version": "2.1.0",
+      "severity": "MEDIUM",
+      "description": "just-pick allows prototype property access via picked keys",
+      "fixed_version": "2.2.0"
+    },
+    {
       "cve_id": "CVE-2021-29418",
       "package": "netmask",
       "version": "1.0.6",
