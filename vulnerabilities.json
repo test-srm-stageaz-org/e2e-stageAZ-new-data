@@ -1,44 +1,12 @@
 {
   "vulnerabilities": [
     {
-      "cve_id": "CVE-2022-29281",
-      "package": "adm-zip",
-      "version": "0.5.5",
-      "severity": "CRITICAL",
-      "description": "adm-zip is vulnerable to Directory Traversal via malicious ZIP file extraction",
-      "fixed_version": "0.5.6"
-    },
-    {
-      "cve_id": "CVE-2022-25912",
-      "package": "simple-git",
-      "version": "3.5.0",
-      "severity": "CRITICAL",
-      "description": "simple-git is vulnerable to Remote Code Execution via argument injection",
-      "fixed_version": "3.15.0"
-    },
-    {
-      "cve_id": "CVE-2020-12265",
-      "package": "decompress",
-      "version": "4.2.0",
-      "severity": "CRITICAL",
-      "description": "decompress is vulnerable to arbitrary file write via path traversal",
-      "fixed_version": "4.2.1"
-    },
-    {
       "cve_id": "CVE-2017-5941",
       "package": "node-serialize",
       "version": "0.0.4",
       "severity": "CRITICAL",
       "description": "node-serialize allows remote code execution via untrusted data deserialization",
       "fixed_version": "N/A"
-    },
-    {
-      "cve_id": "CVE-2023-37466",
-      "package": "vm2",
-      "version": "3.9.10",
-      "severity": "CRITICAL",
-      "description": "vm2 sandbox escape vulnerability allowing arbitrary code execution",
-      "fixed_version": "3.9.19"
     },
     {
       "cve_id": "CVE-2021-29418",
@@ -49,76 +17,100 @@
       "fixed_version": "2.0.1"
     },
     {
-      "cve_id": "CVE-2021-23406",
-      "package": "pac-resolver",
-      "version": "5.0.0",
-      "severity": "CRITICAL",
-      "description": "pac-resolver is vulnerable to Remote Code Execution via malicious PAC file",
-      "fixed_version": "5.0.1"
-    },
-    {
-      "cve_id": "CVE-2022-21663",
-      "package": "systeminformation",
-      "version": "5.11.0",
+      "cve_id": "CVE-2022-28346",
+      "package": "jpeg-js",
+      "version": "0.4.3",
       "severity": "HIGH",
-      "description": "systeminformation is vulnerable to Command Injection via inetLatency function",
-      "fixed_version": "5.11.1"
+      "description": "jpeg-js is vulnerable to Denial of Service via out-of-bounds read",
+      "fixed_version": "0.4.4"
     },
     {
-      "cve_id": "CVE-2022-25858",
-      "package": "mathjs",
-      "version": "10.4.0",
-      "severity": "CRITICAL",
-      "description": "mathjs is vulnerable to Arbitrary Code Execution via malicious expression",
-      "fixed_version": "10.4.2"
-    },
-    {
-      "cve_id": "CVE-2020-7789",
-      "package": "nunjucks",
-      "version": "3.2.2",
+      "cve_id": "CVE-2020-28475",
+      "package": "pathval",
+      "version": "1.1.0",
       "severity": "HIGH",
-      "description": "nunjucks template engine is vulnerable to Prototype Pollution",
-      "fixed_version": "3.2.3"
+      "description": "pathval is vulnerable to Prototype Pollution via setPathValue function",
+      "fixed_version": "1.1.1"
     },
     {
-      "cve_id": "CVE-2021-21353",
-      "package": "pug",
-      "version": "3.0.1",
+      "cve_id": "CVE-2021-3805",
+      "package": "just-extend",
+      "version": "4.0.2",
       "severity": "HIGH",
-      "description": "pug template engine allows Remote Code Execution via template injection",
-      "fixed_version": "3.0.2"
+      "description": "just-extend is vulnerable to Prototype Pollution via extend function",
+      "fixed_version": "4.1.0"
     },
     {
-      "cve_id": "CVE-2022-24434",
-      "package": "dicer",
-      "version": "0.3.0",
+      "cve_id": "CVE-2020-28282",
+      "package": "getobject",
+      "version": "0.1.0",
       "severity": "HIGH",
-      "description": "dicer is vulnerable to Denial of Service via malicious multipart request",
-      "fixed_version": "0.3.1"
+      "description": "getobject is vulnerable to Prototype Pollution via set method",
+      "fixed_version": "1.0.0"
     },
     {
-      "cve_id": "CVE-2021-32820",
-      "package": "dustjs-linkedin",
-      "version": "2.7.4",
-      "severity": "CRITICAL",
-      "description": "dustjs-linkedin allows Remote Code Execution via template compilation",
-      "fixed_version": "2.7.5"
-    },
-    {
-      "cve_id": "CVE-2021-23436",
-      "package": "mout",
-      "version": "1.2.2",
+      "cve_id": "CVE-2021-23775",
+      "package": "shvl",
+      "version": "2.0.0",
       "severity": "HIGH",
-      "description": "mout is vulnerable to Prototype Pollution via set function",
-      "fixed_version": "1.2.3"
+      "description": "shvl is vulnerable to Prototype Pollution via set function",
+      "fixed_version": "2.0.3"
     },
     {
-      "cve_id": "CVE-2020-7789",
-      "package": "node-notifier",
-      "version": "9.0.0",
+      "cve_id": "CVE-2021-23773",
+      "package": "just-safe-set",
+      "version": "2.1.0",
       "severity": "MEDIUM",
-      "description": "node-notifier is vulnerable to OS Command Injection via notification parameters",
-      "fixed_version": "9.0.1"
+      "description": "just-safe-set may allow Prototype Pollution in edge cases",
+      "fixed_version": "2.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23774",
+      "package": "just-safe-get",
+      "version": "2.0.0",
+      "severity": "MEDIUM",
+      "description": "just-safe-get allows unsafe property access",
+      "fixed_version": "2.1.0"
+    },
+    {
+      "cve_id": "CVE-2021-23776",
+      "package": "just-clone",
+      "version": "3.2.1",
+      "severity": "MEDIUM",
+      "description": "just-clone has potential prototype pollution via deep cloning",
+      "fixed_version": "3.2.2"
+    },
+    {
+      "cve_id": "CVE-2021-23777",
+      "package": "just-debounce-it",
+      "version": "1.1.0",
+      "severity": "LOW",
+      "description": "just-debounce-it has timing attack vulnerability",
+      "fixed_version": "1.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23778",
+      "package": "just-throttle",
+      "version": "2.1.0",
+      "severity": "LOW",
+      "description": "just-throttle has memory leak in edge cases",
+      "fixed_version": "2.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23779",
+      "package": "just-once",
+      "version": "1.1.0",
+      "severity": "LOW",
+      "description": "just-once may execute callback multiple times under race conditions",
+      "fixed_version": "1.2.0"
+    },
+    {
+      "cve_id": "CVE-2021-23780",
+      "package": "just-memoize",
+      "version": "1.1.0",
+      "severity": "MEDIUM",
+      "description": "just-memoize cache poisoning vulnerability",
+      "fixed_version": "1.2.0"
     }
   ]
 }
